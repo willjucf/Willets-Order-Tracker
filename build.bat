@@ -53,6 +53,6 @@ if %errorlevel% neq 0 (
 echo.
 echo ========================================
 echo   BUILD COMPLETE!
-echo   Installer: release\Willets Order Tracker Setup 1.4.0.exe
+echo   Installer: release\Willets Order Tracker Setup 1.5.0.exe
 echo ========================================
 pause

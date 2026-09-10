@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Application info
 APP_NAME = "Willet's Order Tracker"
-APP_VERSION = "1.4.0"
+APP_VERSION = "1.5.0"
 APP_FULL_NAME = APP_NAME
 
 # GitHub repo for updates
@@ -101,8 +101,11 @@ STORE_CONFIGS = {
         "enabled": True
     },
     "Best Buy": {
-        "sender_filter": "bestbuy.com",
-        "enabled": False
+        # Direct sender is BestBuyInfo@emailinfo.bestbuy.com; iCloud "Hide My Email"
+        # rewrites it to BestBuyInfo_at_emailinfo_bestbuy_com_...@icloud.com, so
+        # filter on the broad "bestbuy" substring.
+        "sender_filter": "bestbuy",
+        "enabled": True
     }
 }
 

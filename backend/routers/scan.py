@@ -12,6 +12,7 @@ from routers.email import get_email_client, get_connected_email
 from services.parsers.walmart_parser import WalmartParser
 from services.parsers.target_parser import TargetParser
 from services.parsers.pokemon_parser import PokemonParser
+from services.parsers.bestbuy_parser import BestBuyParser
 from services.database.models import Order, Item, Scan, get_order_statistics
 from services.database.db import clear_orders
 from utils.config import EXTENDED_SEARCH_DAYS, STORE_CONFIGS
@@ -37,6 +38,10 @@ _STORE_PARSERS = {
     "Pokemon Center": {
         "parser": PokemonParser,
         "subject_hints": PokemonParser.SUBJECT_HINTS,
+    },
+    "Best Buy": {
+        "parser": BestBuyParser,
+        "subject_hints": BestBuyParser.SUBJECT_HINTS,
     },
 }
 

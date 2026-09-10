@@ -1,4 +1,4 @@
-# Willet's Order Tracker v1.4
+# Willet's Order Tracker v1.5
 
 Desktop app that scans your email for Pokemon Center, Walmart and Target orders and tracks status, spending, and item stick rates.
 
@@ -22,7 +22,7 @@ npm run dev
 Double-click **`build.bat`** — it handles everything automatically and produces:
 
 ```
-release/Willets Order Tracker Setup 1.4.0.exe
+release/Willets Order Tracker Setup 1.5.0.exe
 ```
 
 Or run it from the terminal:
