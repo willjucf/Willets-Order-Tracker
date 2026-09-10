@@ -1,6 +1,6 @@
 # Willet's Order Tracker v1.5
 
-Desktop app that scans your email for Pokemon Center, Walmart and Target orders and tracks status, spending, and item stick rates.
+Desktop app that scans your email for Pokemon Center, Walmart, Target and Best Buy orders and tracks status, spending, and item stick rates.
 
 Works with standard mailboxes (Gmail, Outlook/Hotmail, iCloud, Yahoo, AOL) **and with [AYCD Inbox](https://aycd.io/inbox)** via its built-in IMAP server — so you can point the tracker at one unified inbox that spans all of your synced mail accounts.
 
